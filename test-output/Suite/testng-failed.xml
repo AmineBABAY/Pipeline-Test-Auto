@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.automationexercise.tests.TestCase7">
+        <methods>
+          <include name="verifyTestCasesPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase7 -->
+      <class name="com.automationexercise.tests.TestCase16">
+        <methods>
+          <include name="tearDown"/>
+          <include name="placeOrderLoginBeforeCheckout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase16 -->
+      <class name="com.automationexercise.tests.TestCase2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginUserWithCorrectEmailAndPassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase2 -->
+      <class name="com.automationexercise.tests.TestCase5">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="registerUserWithExistingEmail"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase5 -->
+      <class name="com.automationexercise.tests.TestCase19">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewCartBrandProducts"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase19 -->
+      <class name="com.automationexercise.tests.TestCase18">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="viewCategoryProducts"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase18 -->
+      <class name="com.automationexercise.tests.TestCase20">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchProductsAndVerifyCartAfterLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase20 -->
+      <class name="com.automationexercise.tests.TestCase24">
+        <methods>
+          <include name="downloadInvoiceAfterPurchaseOrder"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase24 -->
+      <class name="com.automationexercise.tests.TestCase25">
+        <methods>
+          <include name="verifyScrollUpUsingArrowButtonAndScrollDownFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase25 -->
+      <class name="com.automationexercise.tests.TestCase4">
+        <methods>
+          <include name="logoutUser"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationexercise.tests.TestCase4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
